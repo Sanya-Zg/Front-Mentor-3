@@ -1,0 +1,86 @@
+p{
+    font-size: 14px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(0, 0%, 8%);
+    max-width: 1440px;
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.out-cont {
+    width: 384px;
+    max-height: 611px;
+    margin: 174.5px auto;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 12px;
+    border: 1px solid hsl(0, 0%, 12%);
+}
+.inner-cont {
+    margin: 39px;
+}
+.top-part {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myPhoto {
+    width: 88px;
+    border-radius: 50%;
+}
+.name-of-user {
+    font-size: 23px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 4px;
+}
+.adress {
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    margin: 6px;
+}
+.description {
+    margin-bottom: 10px;
+    margin-top: 18px;
+}
+.bottom-part a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.bottom-part a :hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    font-weight: 700;
+}
+ul{
+    padding: 0;
+}
+.list-item {
+    background-color: hsl(0, 0%, 20%);
+    height: 45px;
+    list-style-type: none;
+    margin: 16px 0;
+    text-align: center;
+    line-height: 45px;
+    font-weight: 400;
+    font-size: 15px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+    .out-cont {
+        width: 456px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .out-cont {
+        width: 327px;
+        max-height: 579px;
+    }
+    .inner-cont {
+        margin: 23px;
+    }
+}
